@@ -1,0 +1,391 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-07-05T19:42:02.987Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5189924700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qascript.StepDefs.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "user is able to login with valid credentials",
+        "description": "",
+        "id": "user-login;user-is-able-to-login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 243065300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qascript.StepDefs.Hooks.clos()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 410710700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters valid username in the email field",
+            "match": {
+              "location": "com.qascript.StepDefs.LoginStepsDefs.userEntersValidUsernameInTheEmailField()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 244062000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters valid password in the password field",
+            "match": {
+              "location": "com.qascript.StepDefs.LoginStepsDefs.userEntersValidPasswordInThePasswordField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128137800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on the login button",
+            "match": {
+              "location": "com.qascript.StepDefs.LoginStepsDefs.userClicksOnTheLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1516823400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is logged in successfully",
+            "match": {
+              "location": "com.qascript.StepDefs.LoginStepsDefs.userIsLoggedInSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-05T19:42:10.851Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3026182500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qascript.StepDefs.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "user is not able to login with invalid credentials",
+        "description": "",
+        "id": "user-login;user-is-not-able-to-login-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 196836500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qascript.StepDefs.Hooks.clos()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 427542300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters invalid pateb@gmail.com in the email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pateb@gmail.com",
+                  "offset": 20
+                }
+              ],
+              "location": "com.qascript.StepDefs.LoginStepsDefs.userEntersInvalidUsernameInTheEmailField(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 275788400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters invalid 123456 in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 20
+                }
+              ],
+              "location": "com.qascript.StepDefs.LoginStepsDefs.userEntersInvalidPasswordInThePasswordField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 188806000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on the login button",
+            "match": {
+              "location": "com.qascript.StepDefs.LoginStepsDefs.userClicksOnTheLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 838388500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "error Warning: No match for E-Mail Address and/or Password. is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Warning: No match for E-Mail Address and/or Password.",
+                  "offset": 6
+                }
+              ],
+              "location": "com.qascript.StepDefs.LoginStepsDefs.errorMessageIsDisplayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-05T19:42:15.825Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3434288500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qascript.StepDefs.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "user is not able to login with invalid credentials",
+        "description": "",
+        "id": "user-login;user-is-not-able-to-login-with-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 248724900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qascript.StepDefs.Hooks.clos()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 421288400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters invalid testing@gmail.com in the email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testing@gmail.com",
+                  "offset": 20
+                }
+              ],
+              "location": "com.qascript.StepDefs.LoginStepsDefs.userEntersInvalidUsernameInTheEmailField(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 303555600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters invalid test@123234 in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@123234",
+                  "offset": 20
+                }
+              ],
+              "location": "com.qascript.StepDefs.LoginStepsDefs.userEntersInvalidPasswordInThePasswordField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 940250500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on the login button",
+            "match": {
+              "location": "com.qascript.StepDefs.LoginStepsDefs.userClicksOnTheLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 127793700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "error Warning: No match for E-Mail Address and/or Password. is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Warning: No match for E-Mail Address and/or Password.",
+                  "offset": 6
+                }
+              ],
+              "location": "com.qascript.StepDefs.LoginStepsDefs.errorMessageIsDisplayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-05T19:42:21.322Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3860191600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qascript.StepDefs.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "user is not able to login with invalid credentials",
+        "description": "",
+        "id": "user-login;user-is-not-able-to-login-with-invalid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 536539200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qascript.StepDefs.Hooks.clos()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 330790400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters invalid test1@gmail.com in the email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1@gmail.com",
+                  "offset": 20
+                }
+              ],
+              "location": "com.qascript.StepDefs.LoginStepsDefs.userEntersInvalidUsernameInTheEmailField(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 341428100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters invalid test123434 in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test123434",
+                  "offset": 20
+                }
+              ],
+              "location": "com.qascript.StepDefs.LoginStepsDefs.userEntersInvalidPasswordInThePasswordField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 280190800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on the login button",
+            "match": {
+              "location": "com.qascript.StepDefs.LoginStepsDefs.userClicksOnTheLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 804202300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "error Warning: No match for E-Mail Address and/or Password. is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Warning: No match for E-Mail Address and/or Password.",
+                  "offset": 6
+                }
+              ],
+              "location": "com.qascript.StepDefs.LoginStepsDefs.errorMessageIsDisplayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User Login",
+    "description": "",
+    "id": "user-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]
